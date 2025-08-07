@@ -1,0 +1,6 @@
+@ExportDocx_HostAddress = http://localhost:5072
+
+GET {{ExportDocx_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
