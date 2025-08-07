@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FridgeMate.Domain\FridgeMate.Domain.csproj" />
     <ProjectReference Include="..\FridgeMate.Shared\FridgeMate.Shared.csproj" />
+    <ProjectReference Include="..\FridgeMate.Infrastructure\FridgeMate.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project> 
