@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新建菜谱 - 冰箱食物管理系统</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-snowflake"></i>
+                <span>FridgeMate</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="/foods" class="nav-link"><i class="fas fa-carrot"></i> 食材管理</a></li>
+                <li><a href="/recipes" class="nav-link"><i class="fas fa-utensils"></i> 菜谱管理</a></li>
+                <li><a href="/recipes/create" class="nav-link active"><i class="fas fa-plus"></i> 新建菜谱</a></li>
+            </ul>
+        </nav>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- 页面标题 -->
+            <div class="page-header">
+                <div class="breadcrumb">
+                    <a href="/recipes"><i class="fas fa-arrow-left"></i> 返回菜谱列表</a>
+                </div>
+                <h1><i class="fas fa-plus"></i> 新建菜谱</h1>
+            </div>
+
+            <!-- 表单容器 -->
+            <div class="form-container">
+                <form id="recipeForm" class="recipe-form" onsubmit="saveRecipe(event)">
+                    <!-- 基本信息 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-info-circle"></i> 基本信息</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="recipeName">菜谱名称 *</label>
+                                <input type="text" id="recipeName" name="name" required 
+                                       placeholder="例如：红烧肉、宫保鸡丁">
+                                <small class="form-help">请输入菜谱的名称</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipeCategory">分类 *</label>
+                                <select id="recipeCategory" name="category" required>
+                                    <option value="">选择分类</option>
+                                    <option value="chinese">中餐</option>
+                                    <option value="western">西餐</option>
+                                    <option value="japanese">日料</option>
+                                    <option value="korean">韩料</option>
+                                    <option value="dessert">甜点</option>
+                                    <option value="drink">饮品</option>
+                                    <option value="snack">小吃</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="recipeDescription">描述</label>
+                            <textarea id="recipeDescription" name="description" rows="3" 
+                                      placeholder="简要描述这道菜的特点、口感等"></textarea>
+                            <small class="form-help">描述菜谱的特点、口感等信息</small>
+                        </div>
+                    </div>
+
+                    <!-- 烹饪信息 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-clock"></i> 烹饪信息</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="recipeCookingTime">烹饪时间（分钟）*</label>
+                                <input type="number" id="recipeCookingTime" name="cookingTime" min="1" required>
+                                <small class="form-help">预估的烹饪时间</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipeDifficulty">难度 *</label>
+                                <select id="recipeDifficulty" name="difficulty" required>
+                                    <option value="">选择难度</option>
+                                    <option value="easy">简单</option>
+                                    <option value="medium">中等</option>
+                                    <option value="hard">困难</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipeServings">份量（人份）*</label>
+                                <input type="number" id="recipeServings" name="servings" min="1" required>
+                                <small class="form-help">这道菜适合几个人食用</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="recipeTags">标签</label>
+                            <input type="text" id="recipeTags" name="tags" 
+                                   placeholder="用逗号分隔多个标签，例如：家常菜,下饭菜,辣">
+                            <small class="form-help">添加标签便于分类和搜索</small>
+                        </div>
+                    </div>
+
+                    <!-- 食材清单 (BOM) -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-list"></i> 食材清单</h3>
+                        <div class="ingredients-container">
+                            <div class="ingredients-header">
+                                <h4>所需食材</h4>
+                                <button type="button" class="btn btn-outline" onclick="addIngredient()">
+                                    <i class="fas fa-plus"></i> 添加食材
+                                </button>
+                            </div>
+                            <div id="ingredientsList" class="ingredients-list">
+                                <!-- 食材项将通过JavaScript动态添加 -->
+                            </div>
+                            <div class="ingredients-summary">
+                                <p>共 <span id="ingredientCount">0</span> 种食材</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 烹饪步骤 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-tasks"></i> 烹饪步骤</h3>
+                        <div class="instructions-container">
+                            <div class="instructions-header">
+                                <h4>烹饪步骤</h4>
+                                <button type="button" class="btn btn-outline" onclick="addInstruction()">
+                                    <i class="fas fa-plus"></i> 添加步骤
+                                </button>
+                            </div>
+                            <div id="instructionsList" class="instructions-list">
+                                <!-- 步骤将通过JavaScript动态添加 -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 营养信息 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-chart-pie"></i> 营养信息（可选）</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nutritionCalories">卡路里（每份）</label>
+                                <input type="number" id="nutritionCalories" name="nutrition.calories" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label for="nutritionProtein">蛋白质（克）</label>
+                                <input type="number" id="nutritionProtein" name="nutrition.protein" min="0" step="0.1">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nutritionFat">脂肪（克）</label>
+                                <input type="number" id="nutritionFat" name="nutrition.fat" min="0" step="0.1">
+                            </div>
+                            <div class="form-group">
+                                <label for="nutritionCarbohydrates">碳水化合物（克）</label>
+                                <input type="number" id="nutritionCarbohydrates" name="nutrition.carbohydrates" min="0" step="0.1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 高级选项 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-cog"></i> 高级选项</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="recipeImageUrl">图片URL</label>
+                                <input type="url" id="recipeImageUrl" name="imageUrl" 
+                                       placeholder="https://example.com/recipe-image.jpg">
+                                <small class="form-help">菜谱图片的URL地址</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipeVideoUrl">视频URL</label>
+                                <input type="url" id="recipeVideoUrl" name="videoUrl" 
+                                       placeholder="https://youtube.com/watch?v=...">
+                                <small class="form-help">烹饪视频的URL地址</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="recipeNotes">备注</label>
+                            <textarea id="recipeNotes" name="notes" rows="3" 
+                                      placeholder="添加其他备注信息，如烹饪技巧、注意事项等"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- 表单操作 -->
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-outline" onclick="goBack()">
+                            <i class="fas fa-times"></i> 取消
+                        </button>
+                        <button type="button" class="btn btn-outline" onclick="saveAsDraft()">
+                            <i class="fas fa-save"></i> 保存草稿
+                        </button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-check"></i> 创建菜谱
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <!-- 食材选择模态框 -->
+    <div id="ingredientModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>选择食材</h2>
+                <button class="close-btn" onclick="closeIngredientModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="search-box">
+                    <input type="text" id="ingredientSearch" placeholder="搜索食材..." onkeyup="searchIngredients()">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="ingredient-suggestions" id="ingredientSuggestions">
+                    <!-- 食材建议将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/recipe-create.js"></script>
+</body>
+</html> 

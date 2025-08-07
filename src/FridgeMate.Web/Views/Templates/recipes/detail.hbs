@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{recipe.name}} - 菜谱详情</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-snowflake"></i>
+                <span>FridgeMate</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="/foods" class="nav-link"><i class="fas fa-carrot"></i> 食材管理</a></li>
+                <li><a href="/recipes" class="nav-link"><i class="fas fa-utensils"></i> 菜谱管理</a></li>
+                <li><a href="/recipes/create" class="nav-link"><i class="fas fa-plus"></i> 新建菜谱</a></li>
+            </ul>
+        </nav>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- 面包屑导航 -->
+            <div class="breadcrumb">
+                <a href="/recipes"><i class="fas fa-arrow-left"></i> 返回菜谱列表</a>
+            </div>
+
+            <!-- 菜谱详情 -->
+            <div class="recipe-detail">
+                <!-- 菜谱头部信息 -->
+                <div class="recipe-header">
+                    <div class="recipe-image">
+                        <img src="{{recipe.imageUrl}}" alt="{{recipe.name}}" onerror="this.src='/images/default-recipe.jpg'">
+                        <div class="recipe-status-overlay">
+                            {{#if recipe.isCookable}}
+                                <span class="status-badge cookable">可制作</span>
+                            {{else if recipe.isPartiallyCookable}}
+                                <span class="status-badge partial">部分可制作</span>
+                            {{else}}
+                                <span class="status-badge uncookable">不可制作</span>
+                            {{/if}}
+                        </div>
+                    </div>
+                    <div class="recipe-info">
+                        <h1>{{recipe.name}}</h1>
+                        <p class="recipe-description">{{recipe.description}}</p>
+                        
+                        <div class="recipe-meta-grid">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <span class="meta-label">烹饪时间</span>
+                                    <span class="meta-value">{{recipe.cookingTime}}分钟</span>
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-signal"></i>
+                                <div>
+                                    <span class="meta-label">难度</span>
+                                    <span class="meta-value">{{recipe.difficultyText}}</span>
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <span class="meta-label">份量</span>
+                                    <span class="meta-value">{{recipe.servings}}人份</span>
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-carrot"></i>
+                                <div>
+                                    <span class="meta-label">食材数量</span>
+                                    <span class="meta-value">{{recipe.ingredientCount}}种</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="recipe-tags">
+                            <span class="tag category">{{recipe.categoryText}}</span>
+                            {{#if recipe.tags}}
+                                {{#each recipe.tags}}
+                                    <span class="tag">{{this}}</span>
+                                {{/each}}
+                            {{/if}}
+                        </div>
+
+                        <div class="recipe-actions">
+                            {{#if recipe.isCookable}}
+                                <button class="btn btn-primary" onclick="startCooking('{{recipe.id}}')">
+                                    <i class="fas fa-play"></i> 开始烹饪
+                                </button>
+                            {{else}}
+                                <button class="btn btn-outline" onclick="showShoppingList('{{recipe.id}}')">
+                                    <i class="fas fa-shopping-cart"></i> 查看购物清单
+                                </button>
+                            {{/if}}
+                            <button class="btn btn-outline" onclick="editRecipe('{{recipe.id}}')">
+                                <i class="fas fa-edit"></i> 编辑
+                            </button>
+                            <button class="btn btn-outline" onclick="addToFavorites('{{recipe.id}}')">
+                                <i class="fas fa-heart"></i> 收藏
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 食材清单 -->
+                <div class="recipe-section">
+                    <h2><i class="fas fa-list"></i> 食材清单</h2>
+                    <div class="ingredients-list">
+                        {{#each recipe.ingredients}}
+                            <div class="ingredient-item {{availabilityStatus}}">
+                                <div class="ingredient-info">
+                                    <div class="ingredient-name">{{name}}</div>
+                                    <div class="ingredient-amount">{{quantity}} {{unit}}</div>
+                                </div>
+                                <div class="ingredient-status">
+                                    {{#if isAvailable}}
+                                        <span class="status-badge available">
+                                            <i class="fas fa-check"></i> 可用
+                                        </span>
+                                    {{else if isPartiallyAvailable}}
+                                        <span class="status-badge partial">
+                                            <i class="fas fa-exclamation-triangle"></i> 部分可用
+                                        </span>
+                                        <small>缺少 {{missingQuantity}} {{unit}}</small>
+                                    {{else}}
+                                        <span class="status-badge unavailable">
+                                            <i class="fas fa-times"></i> 不可用
+                                        </span>
+                                    {{/if}}
+                                </div>
+                                <div class="ingredient-actions">
+                                    {{#if isAvailable}}
+                                        <button class="btn btn-sm btn-outline" onclick="useIngredient('{{id}}', '{{quantity}}')">
+                                            使用
+                                        </button>
+                                    {{else}}
+                                        <button class="btn btn-sm btn-primary" onclick="addToShoppingList('{{name}}', '{{missingQuantity}}', '{{unit}}')">
+                                            添加到购物清单
+                                        </button>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        {{/each}}
+                    </div>
+
+                    <!-- 食材可用性统计 -->
+                    <div class="availability-summary">
+                        <div class="availability-chart">
+                            <div class="chart-item">
+                                <div class="chart-bar available" style="width: {{recipe.availabilityStats.availablePercentage}}%"></div>
+                                <span>可用 ({{recipe.availabilityStats.availableCount}})</span>
+                            </div>
+                            <div class="chart-item">
+                                <div class="chart-bar partial" style="width: {{recipe.availabilityStats.partialPercentage}}%"></div>
+                                <span>部分可用 ({{recipe.availabilityStats.partialCount}})</span>
+                            </div>
+                            <div class="chart-item">
+                                <div class="chart-bar unavailable" style="width: {{recipe.availabilityStats.unavailablePercentage}}%"></div>
+                                <span>不可用 ({{recipe.availabilityStats.unavailableCount}})</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 烹饪步骤 -->
+                {{#if recipe.instructions}}
+                    <div class="recipe-section">
+                        <h2><i class="fas fa-tasks"></i> 烹饪步骤</h2>
+                        <div class="instructions-list">
+                            {{#each recipe.instructions}}
+                                <div class="instruction-step">
+                                    <div class="step-number">{{add @index 1}}</div>
+                                    <div class="step-content">{{this}}</div>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                {{/if}}
+
+                <!-- 营养信息 -->
+                {{#if recipe.nutritionInfo}}
+                    <div class="recipe-section">
+                        <h2><i class="fas fa-chart-pie"></i> 营养信息</h2>
+                        <div class="nutrition-grid">
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">卡路里</span>
+                                <span class="nutrition-value">{{recipe.nutritionInfo.calories}} kcal</span>
+                            </div>
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">蛋白质</span>
+                                <span class="nutrition-value">{{recipe.nutritionInfo.protein}}g</span>
+                            </div>
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">脂肪</span>
+                                <span class="nutrition-value">{{recipe.nutritionInfo.fat}}g</span>
+                            </div>
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">碳水化合物</span>
+                                <span class="nutrition-value">{{recipe.nutritionInfo.carbohydrates}}g</span>
+                            </div>
+                        </div>
+                    </div>
+                {{/if}}
+
+                <!-- 相关菜谱 -->
+                {{#if recipe.relatedRecipes.length}}
+                    <div class="recipe-section">
+                        <h2><i class="fas fa-utensils"></i> 相关菜谱</h2>
+                        <div class="related-recipes">
+                            {{#each recipe.relatedRecipes}}
+                                <div class="related-recipe-card" onclick="viewRecipe('{{id}}')">
+                                    <img src="{{imageUrl}}" alt="{{name}}" onerror="this.src='/images/default-recipe.jpg'">
+                                    <div class="related-recipe-info">
+                                        <h4>{{name}}</h4>
+                                        <p>{{cookingTime}}分钟 | {{difficultyText}}</p>
+                                    </div>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                {{/if}}
+
+                <!-- 评论和评分 -->
+                <div class="recipe-section">
+                    <h2><i class="fas fa-comments"></i> 评论和评分</h2>
+                    <div class="rating-section">
+                        <div class="average-rating">
+                            <div class="stars">
+                                {{#each recipe.averageRating}}
+                                    <i class="fas fa-star {{#if this}}filled{{/if}}"></i>
+                                {{/each}}
+                            </div>
+                            <span class="rating-text">{{recipe.averageRatingValue}}/5 ({{recipe.reviewCount}}条评论)</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="showReviewModal()">
+                            <i class="fas fa-plus"></i> 添加评论
+                        </button>
+                    </div>
+                    
+                    {{#if recipe.reviews.length}}
+                        <div class="reviews-list">
+                            {{#each recipe.reviews}}
+                                <div class="review-item">
+                                    <div class="review-header">
+                                        <div class="reviewer-info">
+                                            <span class="reviewer-name">{{reviewerName}}</span>
+                                            <div class="stars">
+                                                {{#each rating}}
+                                                    <i class="fas fa-star {{#if this}}filled{{/if}}"></i>
+                                                {{/each}}
+                                            </div>
+                                        </div>
+                                        <span class="review-date">{{formatDate reviewDate}}</span>
+                                    </div>
+                                    <p class="review-content">{{content}}</p>
+                                </div>
+                            {{/each}}
+                        </div>
+                    {{else}}
+                        <div class="empty-state">
+                            <i class="fas fa-comments"></i>
+                            <p>暂无评论</p>
+                        </div>
+                    {{/if}}
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 评论模态框 -->
+    <div id="reviewModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>添加评论</h2>
+                <button class="close-btn" onclick="closeReviewModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="reviewForm" onsubmit="submitReview(event)">
+                <div class="form-group">
+                    <label>评分</label>
+                    <div class="rating-input">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="fas fa-star" data-rating="5"></i>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="reviewContent">评论内容</label>
+                    <textarea id="reviewContent" name="content" rows="4" required placeholder="分享您的烹饪体验..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-outline" onclick="closeReviewModal()">取消</button>
+                    <button type="submit" class="btn btn-primary">提交评论</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/recipe-detail.js"></script>
+</body>
+</html> 

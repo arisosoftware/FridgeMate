@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菜谱管理 - 冰箱食物管理系统</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-snowflake"></i>
+                <span>FridgeMate</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="/foods" class="nav-link"><i class="fas fa-carrot"></i> 食材管理</a></li>
+                <li><a href="/recipes" class="nav-link active"><i class="fas fa-utensils"></i> 菜谱管理</a></li>
+                <li><a href="/recipes/create" class="nav-link"><i class="fas fa-plus"></i> 新建菜谱</a></li>
+            </ul>
+        </nav>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- 页面标题 -->
+            <div class="page-header">
+                <h1><i class="fas fa-utensils"></i> 菜谱管理</h1>
+                <div class="header-actions">
+                    <button class="btn btn-primary" onclick="showCreateRecipeModal()">
+                        <i class="fas fa-plus"></i> 新建菜谱
+                    </button>
+                    <button class="btn btn-outline" onclick="exportRecipeList()">
+                        <i class="fas fa-download"></i> 导出
+                    </button>
+                </div>
+            </div>
+
+            <!-- 筛选和搜索 -->
+            <div class="filter-section">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索菜谱名称..." onkeyup="filterRecipes()">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="filter-options">
+                    <select id="categoryFilter" onchange="filterRecipes()">
+                        <option value="">全部分类</option>
+                        <option value="chinese">中餐</option>
+                        <option value="western">西餐</option>
+                        <option value="japanese">日料</option>
+                        <option value="korean">韩料</option>
+                        <option value="dessert">甜点</option>
+                        <option value="drink">饮品</option>
+                        <option value="snack">小吃</option>
+                    </select>
+                    <select id="difficultyFilter" onchange="filterRecipes()">
+                        <option value="">全部难度</option>
+                        <option value="easy">简单</option>
+                        <option value="medium">中等</option>
+                        <option value="hard">困难</option>
+                    </select>
+                    <select id="cookableFilter" onchange="filterRecipes()">
+                        <option value="">全部状态</option>
+                        <option value="cookable">可制作</option>
+                        <option value="partial">部分可制作</option>
+                        <option value="uncookable">不可制作</option>
+                    </select>
+                    <select id="sortBy" onchange="filterRecipes()">
+                        <option value="name">按名称排序</option>
+                        <option value="difficulty">按难度排序</option>
+                        <option value="cookingTime">按烹饪时间排序</option>
+                        <option value="createdDate">按创建时间排序</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- 菜谱列表 -->
+            <div class="recipe-list-container">
+                {{#if recipes.length}}
+                    <div class="recipe-grid" id="recipeGrid">
+                        {{#each recipes}}
+                            <div class="recipe-card {{cookableStatus}}" data-id="{{id}}" data-name="{{name}}" data-category="{{category}}" data-difficulty="{{difficulty}}" data-cookable="{{cookableStatus}}">
+                                <div class="recipe-header">
+                                    <div class="recipe-status">
+                                        {{#if isCookable}}
+                                            <span class="status-badge cookable">可制作</span>
+                                        {{else if isPartiallyCookable}}
+                                            <span class="status-badge partial">部分可制作</span>
+                                        {{else}}
+                                            <span class="status-badge uncookable">不可制作</span>
+                                        {{/if}}
+                                    </div>
+                                    <div class="recipe-actions">
+                                        <button class="btn btn-sm btn-outline" onclick="editRecipe('{{id}}')" title="编辑">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger" onclick="deleteRecipe('{{id}}')" title="删除">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="recipe-image">
+                                    <img src="{{imageUrl}}" alt="{{name}}" onerror="this.src='/images/default-recipe.jpg'">
+                                    <div class="recipe-overlay">
+                                        <button class="btn btn-primary" onclick="viewRecipe('{{id}}')">
+                                            <i class="fas fa-eye"></i> 查看详情
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="recipe-content">
+                                    <h3 class="recipe-name">{{name}}</h3>
+                                    <p class="recipe-description">{{description}}</p>
+                                    <div class="recipe-meta">
+                                        <div class="meta-item">
+                                            <i class="fas fa-clock"></i>
+                                            <span>{{cookingTime}}分钟</span>
+                                        </div>
+                                        <div class="meta-item">
+                                            <i class="fas fa-signal"></i>
+                                            <span>{{difficultyText}}</span>
+                                        </div>
+                                        <div class="meta-item">
+                                            <i class="fas fa-users"></i>
+                                            <span>{{servings}}人份</span>
+                                        </div>
+                                        <div class="meta-item">
+                                            <i class="fas fa-carrot"></i>
+                                            <span>{{ingredientCount}}种食材</span>
+                                        </div>
+                                    </div>
+                                    <div class="recipe-tags">
+                                        <span class="tag category">{{categoryText}}</span>
+                                        {{#if tags}}
+                                            {{#each tags}}
+                                                <span class="tag">{{this}}</span>
+                                            {{/each}}
+                                        {{/if}}
+                                    </div>
+                                    <div class="recipe-availability">
+                                        {{#if missingIngredients.length}}
+                                            <div class="missing-ingredients">
+                                                <small>缺少: {{missingIngredients}}</small>
+                                            </div>
+                                        {{/if}}
+                                        {{#if availablePercentage}}
+                                            <div class="availability-percentage">
+                                                <div class="progress-bar">
+                                                    <div class="progress-fill" style="width: {{availablePercentage}}%"></div>
+                                                </div>
+                                                <small>{{availablePercentage}}% 食材可用</small>
+                                            </div>
+                                        {{/if}}
+                                    </div>
+                                </div>
+                            </div>
+                        {{/each}}
+                    </div>
+
+                    <!-- 分页 -->
+                    {{#if pagination}}
+                        <div class="pagination">
+                            {{#if pagination.hasPrevious}}
+                                <button class="btn btn-outline" onclick="changePage({{pagination.previousPage}})">
+                                    <i class="fas fa-chevron-left"></i> 上一页
+                                </button>
+                            {{/if}}
+                            
+                            <span class="page-info">
+                                第 {{pagination.currentPage}} 页，共 {{pagination.totalPages}} 页
+                            </span>
+                            
+                            {{#if pagination.hasNext}}
+                                <button class="btn btn-outline" onclick="changePage({{pagination.nextPage}})">
+                                    下一页 <i class="fas fa-chevron-right"></i>
+                                </button>
+                            {{/if}}
+                        </div>
+                    {{/if}}
+                {{else}}
+                    <div class="empty-state">
+                        <i class="fas fa-utensils"></i>
+                        <h3>暂无菜谱</h3>
+                        <p>开始创建您的第一个菜谱吧！</p>
+                        <button class="btn btn-primary" onclick="showCreateRecipeModal()">
+                            <i class="fas fa-plus"></i> 新建菜谱
+                        </button>
+                    </div>
+                {{/if}}
+            </div>
+        </main>
+    </div>
+
+    <!-- 新建菜谱模态框 -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content large">
+            <div class="modal-header">
+                <h2 id="modalTitle">新建菜谱</h2>
+                <button class="close-btn" onclick="closeRecipeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="recipeForm" onsubmit="saveRecipe(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="recipeName">菜谱名称 *</label>
+                        <input type="text" id="recipeName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipeCategory">分类 *</label>
+                        <select id="recipeCategory" name="category" required>
+                            <option value="">选择分类</option>
+                            <option value="chinese">中餐</option>
+                            <option value="western">西餐</option>
+                            <option value="japanese">日料</option>
+                            <option value="korean">韩料</option>
+                            <option value="dessert">甜点</option>
+                            <option value="drink">饮品</option>
+                            <option value="snack">小吃</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="recipeDescription">描述</label>
+                    <textarea id="recipeDescription" name="description" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="recipeCookingTime">烹饪时间（分钟）*</label>
+                        <input type="number" id="recipeCookingTime" name="cookingTime" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipeDifficulty">难度 *</label>
+                        <select id="recipeDifficulty" name="difficulty" required>
+                            <option value="">选择难度</option>
+                            <option value="easy">简单</option>
+                            <option value="medium">中等</option>
+                            <option value="hard">困难</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipeServings">份量（人份）*</label>
+                        <input type="number" id="recipeServings" name="servings" min="1" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="recipeTags">标签</label>
+                    <input type="text" id="recipeTags" name="tags" placeholder="用逗号分隔多个标签">
+                </div>
+                <div class="form-group">
+                    <label for="recipeInstructions">烹饪步骤</label>
+                    <textarea id="recipeInstructions" name="instructions" rows="6" placeholder="详细描述烹饪步骤..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-outline" onclick="closeRecipeModal()">取消</button>
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/recipes.js"></script>
+</body>
+</html> 

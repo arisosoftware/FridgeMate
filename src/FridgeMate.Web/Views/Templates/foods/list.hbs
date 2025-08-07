@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>食材管理 - 冰箱食物管理系统</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-snowflake"></i>
+                <span>FridgeMate</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="/foods" class="nav-link active"><i class="fas fa-carrot"></i> 食材管理</a></li>
+                <li><a href="/recipes" class="nav-link"><i class="fas fa-utensils"></i> 菜谱管理</a></li>
+                <li><a href="/recipes/create" class="nav-link"><i class="fas fa-plus"></i> 新建菜谱</a></li>
+            </ul>
+        </nav>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- 页面标题 -->
+            <div class="page-header">
+                <h1><i class="fas fa-carrot"></i> 食材管理</h1>
+                <div class="header-actions">
+                    <button class="btn btn-primary" onclick="showAddFoodModal()">
+                        <i class="fas fa-plus"></i> 添加食材
+                    </button>
+                    <button class="btn btn-outline" onclick="exportFoodList()">
+                        <i class="fas fa-download"></i> 导出
+                    </button>
+                </div>
+            </div>
+
+            <!-- 筛选和搜索 -->
+            <div class="filter-section">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索食材名称..." onkeyup="filterFoods()">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="filter-options">
+                    <select id="statusFilter" onchange="filterFoods()">
+                        <option value="">全部状态</option>
+                        <option value="normal">正常</option>
+                        <option value="expiring">即将过期</option>
+                        <option value="expired">已过期</option>
+                    </select>
+                    <select id="sortBy" onchange="filterFoods()">
+                        <option value="name">按名称排序</option>
+                        <option value="expiryDate">按过期时间排序</option>
+                        <option value="addedDate">按添加时间排序</option>
+                        <option value="quantity">按数量排序</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- 食材列表 -->
+            <div class="food-list-container">
+                {{#if foodItems.length}}
+                    <div class="food-grid" id="foodGrid">
+                        {{#each foodItems}}
+                            <div class="food-card {{status}}" data-id="{{id}}" data-name="{{name}}" data-status="{{status}}">
+                                <div class="food-header">
+                                    <div class="food-status">
+                                        {{#if isExpired}}
+                                            <span class="status-badge expired">已过期</span>
+                                        {{else if isExpiring}}
+                                            <span class="status-badge expiring">即将过期</span>
+                                        {{else}}
+                                            <span class="status-badge normal">正常</span>
+                                        {{/if}}
+                                    </div>
+                                    <div class="food-actions">
+                                        <button class="btn btn-sm btn-outline" onclick="editFoodItem('{{id}}')" title="编辑">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger" onclick="deleteFoodItem('{{id}}')" title="删除">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="food-content">
+                                    <h3 class="food-name">{{name}}</h3>
+                                    <div class="food-details">
+                                        <div class="detail-item">
+                                            <i class="fas fa-balance-scale"></i>
+                                            <span>{{quantity}} {{unit}}</span>
+                                        </div>
+                                        <div class="detail-item">
+                                            <i class="fas fa-calendar-plus"></i>
+                                            <span>添加: {{formatDate addedDate}}</span>
+                                        </div>
+                                        <div class="detail-item">
+                                            <i class="fas fa-calendar-times"></i>
+                                            <span>过期: {{formatDate expiryDate}}</span>
+                                        </div>
+                                        {{#if notes}}
+                                            <div class="detail-item">
+                                                <i class="fas fa-sticky-note"></i>
+                                                <span>{{notes}}</span>
+                                            </div>
+                                        {{/if}}
+                                    </div>
+                                    <div class="food-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill {{status}}" style="width: {{expiryProgress}}%"></div>
+                                        </div>
+                                        <span class="progress-text">{{daysUntilExpiry}}天</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {{/each}}
+                    </div>
+
+                    <!-- 分页 -->
+                    {{#if pagination}}
+                        <div class="pagination">
+                            {{#if pagination.hasPrevious}}
+                                <button class="btn btn-outline" onclick="changePage({{pagination.previousPage}})">
+                                    <i class="fas fa-chevron-left"></i> 上一页
+                                </button>
+                            {{/if}}
+                            
+                            <span class="page-info">
+                                第 {{pagination.currentPage}} 页，共 {{pagination.totalPages}} 页
+                            </span>
+                            
+                            {{#if pagination.hasNext}}
+                                <button class="btn btn-outline" onclick="changePage({{pagination.nextPage}})">
+                                    下一页 <i class="fas fa-chevron-right"></i>
+                                </button>
+                            {{/if}}
+                        </div>
+                    {{/if}}
+                {{else}}
+                    <div class="empty-state">
+                        <i class="fas fa-carrot"></i>
+                        <h3>暂无食材</h3>
+                        <p>开始添加您的第一个食材吧！</p>
+                        <button class="btn btn-primary" onclick="showAddFoodModal()">
+                            <i class="fas fa-plus"></i> 添加食材
+                        </button>
+                    </div>
+                {{/if}}
+            </div>
+        </main>
+    </div>
+
+    <!-- 添加/编辑食材模态框 -->
+    <div id="foodModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">添加食材</h2>
+                <button class="close-btn" onclick="closeFoodModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="foodForm" onsubmit="saveFoodItem(event)">
+                <div class="form-group">
+                    <label for="foodName">食材名称 *</label>
+                    <input type="text" id="foodName" name="name" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="foodQuantity">数量 *</label>
+                        <input type="number" id="foodQuantity" name="quantity" min="0" step="0.1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodUnit">单位 *</label>
+                        <select id="foodUnit" name="unit" required>
+                            <option value="">选择单位</option>
+                            <option value="个">个</option>
+                            <option value="斤">斤</option>
+                            <option value="公斤">公斤</option>
+                            <option value="包">包</option>
+                            <option value="瓶">瓶</option>
+                            <option value="盒">盒</option>
+                            <option value="袋">袋</option>
+                            <option value="克">克</option>
+                            <option value="毫升">毫升</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="foodAddedDate">添加日期 *</label>
+                        <input type="date" id="foodAddedDate" name="addedDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodExpiryDate">过期日期 *</label>
+                        <input type="date" id="foodExpiryDate" name="expiryDate" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="foodNotes">备注</label>
+                    <textarea id="foodNotes" name="notes" rows="3" placeholder="添加备注信息..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-outline" onclick="closeFoodModal()">取消</button>
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/foods.js"></script>
+</body>
+</html> 
