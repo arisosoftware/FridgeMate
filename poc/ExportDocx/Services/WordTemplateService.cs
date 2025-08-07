@@ -3,7 +3,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using HandlebarsDotNet;
 using System.Text;
 
-namespace FridgeMate.poc.ExportDocx.Services;
+namespace FridgeMate.ExportDocx.Services;
 
 public class WordTemplateService
 {

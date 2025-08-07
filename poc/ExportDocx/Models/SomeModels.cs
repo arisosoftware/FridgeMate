@@ -1,4 +1,4 @@
-namespace FridgeMate.poc.ExportDocx.Models;
+namespace FridgeMate.ExportDocx.Models;
 
 public class JobPostDto
 {

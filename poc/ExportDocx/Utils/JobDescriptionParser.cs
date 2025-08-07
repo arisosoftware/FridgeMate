@@ -1,19 +1,16 @@
 using System.Text.RegularExpressions;
 
-namespace FridgeMate.poc.ExportDocx.Utils;
-using FridgeMate.poc.ExportDocx.Models;
-        // This method returns a demo job post for Autodesk, including company info, job details, requirements, culture, and contact email.
-        // The job post is structured to provide a comprehensive overview of the position and the company, suitable for use in a job posting application.
-        // The data is hardcoded for demonstration purposes and can be used to test the functionality of the job posting application.
-using System.Collections.Generic;
-using FridgeMate.poc.ExportDocx.Models;
-using FridgeMate.poc.ExportDocx.Utils;
+namespace FridgeMate.ExportDocx.Utils;
+
+// This method returns a demo job post for Autodesk, including company info, job details, requirements, culture, and contact email.
+// The job post is structured to provide a comprehensive overview of the position and the company, suitable for use in a job posting application.
+// The data is hardcoded for demonstration purposes and can be used to test the functionality of the job posting application.
 using System.Linq;
 using System.Text.RegularExpressions;
 using System;
 using System.IO;
-using FridgeMate.poc.ExportDocx.Models;
-using FridgeMate.poc.ExportDocx.Utils;
+using System.Collections.Generic;
+using FridgeMate.ExportDocx.Models;
 
 
 public static class JobDescriptionParser
@@ -180,7 +177,7 @@ public static class JobDescriptionParser
     }
 
 
-    public static JobPostDto GetDemo1()
+    public static JobPostDto GetDemo2()
 {
 
 
