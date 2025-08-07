@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{#if foodItem.id}}编辑食材{{else}}添加食材{{/if}} - 冰箱食物管理系统</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-snowflake"></i>
+                <span>FridgeMate</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="/foods" class="nav-link"><i class="fas fa-carrot"></i> 食材管理</a></li>
+                <li><a href="/recipes" class="nav-link"><i class="fas fa-utensils"></i> 菜谱管理</a></li>
+                <li><a href="/recipes/create" class="nav-link"><i class="fas fa-plus"></i> 新建菜谱</a></li>
+            </ul>
+        </nav>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- 页面标题 -->
+            <div class="page-header">
+                <div class="breadcrumb">
+                    <a href="/foods"><i class="fas fa-arrow-left"></i> 返回食材列表</a>
+                </div>
+                <h1>
+                    <i class="fas fa-{{#if foodItem.id}}edit{{else}}plus{{/if}}"></i>
+                    {{#if foodItem.id}}编辑食材{{else}}添加食材{{/if}}
+                </h1>
+            </div>
+
+            <!-- 表单容器 -->
+            <div class="form-container">
+                <form id="foodForm" class="food-form" onsubmit="saveFoodItem(event)">
+                    <input type="hidden" id="foodId" name="id" value="{{foodItem.id}}">
+                    
+                    <!-- 基本信息 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-info-circle"></i> 基本信息</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="foodName">食材名称 *</label>
+                                <input type="text" id="foodName" name="name" value="{{foodItem.name}}" required 
+                                       placeholder="例如：苹果、牛奶、鸡蛋">
+                                <small class="form-help">请输入食材的具体名称</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="foodCategory">分类</label>
+                                <select id="foodCategory" name="category">
+                                    <option value="">选择分类</option>
+                                    <option value="vegetables" {{#if (eq foodItem.category "vegetables")}}selected{{/if}}>蔬菜</option>
+                                    <option value="fruits" {{#if (eq foodItem.category "fruits")}}selected{{/if}}>水果</option>
+                                    <option value="meat" {{#if (eq foodItem.category "meat")}}selected{{/if}}>肉类</option>
+                                    <option value="dairy" {{#if (eq foodItem.category "dairy")}}selected{{/if}}>乳制品</option>
+                                    <option value="grains" {{#if (eq foodItem.category "grains")}}selected{{/if}}>谷物</option>
+                                    <option value="seafood" {{#if (eq foodItem.category "seafood")}}selected{{/if}}>海鲜</option>
+                                    <option value="condiments" {{#if (eq foodItem.category "condiments")}}selected{{/if}}>调味料</option>
+                                    <option value="beverages" {{#if (eq foodItem.category "beverages")}}selected{{/if}}>饮料</option>
+                                    <option value="snacks" {{#if (eq foodItem.category "snacks")}}selected{{/if}}>零食</option>
+                                    <option value="other" {{#if (eq foodItem.category "other")}}selected{{/if}}>其他</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 数量和单位 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-balance-scale"></i> 数量和单位</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="foodQuantity">数量 *</label>
+                                <input type="number" id="foodQuantity" name="quantity" value="{{foodItem.quantity}}" 
+                                       min="0" step="0.1" required>
+                                <small class="form-help">请输入食材的数量</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="foodUnit">单位 *</label>
+                                <select id="foodUnit" name="unit" required>
+                                    <option value="">选择单位</option>
+                                    <option value="个" {{#if (eq foodItem.unit "个")}}selected{{/if}}>个</option>
+                                    <option value="斤" {{#if (eq foodItem.unit "斤")}}selected{{/if}}>斤</option>
+                                    <option value="公斤" {{#if (eq foodItem.unit "公斤")}}selected{{/if}}>公斤</option>
+                                    <option value="包" {{#if (eq foodItem.unit "包")}}selected{{/if}}>包</option>
+                                    <option value="瓶" {{#if (eq foodItem.unit "瓶")}}selected{{/if}}>瓶</option>
+                                    <option value="盒" {{#if (eq foodItem.unit "盒")}}selected{{/if}}>盒</option>
+                                    <option value="袋" {{#if (eq foodItem.unit "袋")}}selected{{/if}}>袋</option>
+                                    <option value="克" {{#if (eq foodItem.unit "克")}}selected{{/if}}>克</option>
+                                    <option value="毫升" {{#if (eq foodItem.unit "毫升")}}selected{{/if}}>毫升</option>
+                                    <option value="片" {{#if (eq foodItem.unit "片")}}selected{{/if}}>片</option>
+                                    <option value="块" {{#if (eq foodItem.unit "块")}}selected{{/if}}>块</option>
+                                    <option value="条" {{#if (eq foodItem.unit "条")}}selected{{/if}}>条</option>
+                                    <option value="根" {{#if (eq foodItem.unit "根")}}selected{{/if}}>根</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 日期信息 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-calendar"></i> 日期信息</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="foodAddedDate">添加日期 *</label>
+                                <input type="date" id="foodAddedDate" name="addedDate" 
+                                       value="{{formatDateForInput foodItem.addedDate}}" required>
+                                <small class="form-help">食材放入冰箱的日期</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="foodExpiryDate">过期日期 *</label>
+                                <input type="date" id="foodExpiryDate" name="expiryDate" 
+                                       value="{{formatDateForInput foodItem.expiryDate}}" required>
+                                <small class="form-help">食材的保质期到期日期</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="foodStorageLocation">存储位置</label>
+                            <select id="foodStorageLocation" name="storageLocation">
+                                <option value="">选择存储位置</option>
+                                <option value="refrigerator" {{#if (eq foodItem.storageLocation "refrigerator")}}selected{{/if}}>冷藏室</option>
+                                <option value="freezer" {{#if (eq foodItem.storageLocation "freezer")}}selected{{/if}}>冷冻室</option>
+                                <option value="vegetable_crisper" {{#if (eq foodItem.storageLocation "vegetable_crisper")}}selected{{/if}}>蔬菜保鲜盒</option>
+                                <option value="door_shelf" {{#if (eq foodItem.storageLocation "door_shelf")}}selected{{/if}}>门架</option>
+                                <option value="top_shelf" {{#if (eq foodItem.storageLocation "top_shelf")}}selected{{/if}}>上层搁板</option>
+                                <option value="middle_shelf" {{#if (eq foodItem.storageLocation "middle_shelf")}}selected{{/if}}>中层搁板</option>
+                                <option value="bottom_shelf" {{#if (eq foodItem.storageLocation "bottom_shelf")}}selected{{/if}}>下层搁板</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- 备注信息 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-sticky-note"></i> 备注信息</h3>
+                        <div class="form-group">
+                            <label for="foodNotes">备注</label>
+                            <textarea id="foodNotes" name="notes" rows="4" 
+                                      placeholder="添加备注信息，例如：品牌、产地、特殊要求等">{{foodItem.notes}}</textarea>
+                            <small class="form-help">可以添加食材的品牌、产地、特殊要求等信息</small>
+                        </div>
+                    </div>
+
+                    <!-- 高级选项 -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-cog"></i> 高级选项</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="foodPriority">优先级</label>
+                                <select id="foodPriority" name="priority">
+                                    <option value="low" {{#if (eq foodItem.priority "low")}}selected{{/if}}>低</option>
+                                    <option value="normal" {{#if (eq foodItem.priority "normal")}}selected{{/if}}>普通</option>
+                                    <option value="high" {{#if (eq foodItem.priority "high")}}selected{{/if}}>高</option>
+                                    <option value="urgent" {{#if (eq foodItem.priority "urgent")}}selected{{/if}}>紧急</option>
+                                </select>
+                                <small class="form-help">设置食材的优先级，影响提醒顺序</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="foodReminderDays">提前提醒天数</label>
+                                <input type="number" id="foodReminderDays" name="reminderDays" 
+                                       value="{{foodItem.reminderDays}}" min="1" max="30">
+                                <small class="form-help">在过期前多少天开始提醒（默认3天）</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 表单操作 -->
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-outline" onclick="goBack()">
+                            <i class="fas fa-times"></i> 取消
+                        </button>
+                        {{#if foodItem.id}}
+                            <button type="button" class="btn btn-danger" onclick="deleteFoodItem('{{foodItem.id}}')">
+                                <i class="fas fa-trash"></i> 删除
+                            </button>
+                        {{/if}}
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save"></i> {{#if foodItem.id}}更新{{else}}保存{{/if}}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <!-- 确认删除模态框 -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>确认删除</h2>
+                <button class="close-btn" onclick="closeDeleteModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>确定要删除这个食材吗？此操作无法撤销。</p>
+            </div>
+            <div class="modal-actions">
+                <button class="btn btn-outline" onclick="closeDeleteModal()">取消</button>
+                <button class="btn btn-danger" onclick="confirmDelete()">确认删除</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/food-edit.js"></script>
+</body>
+</html> 

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冰箱食物管理系统 - 首页</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-snowflake"></i>
+                <span>FridgeMate</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link active"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="/foods" class="nav-link"><i class="fas fa-carrot"></i> 食材管理</a></li>
+                <li><a href="/recipes" class="nav-link"><i class="fas fa-utensils"></i> 菜谱管理</a></li>
+                <li><a href="/recipes/create" class="nav-link"><i class="fas fa-plus"></i> 新建菜谱</a></li>
+            </ul>
+        </nav>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- 欢迎横幅 -->
+            <div class="welcome-banner">
+                <h1>欢迎使用冰箱食物管理系统</h1>
+                <p>智能管理您的食材，减少浪费，提升烹饪效率</p>
+            </div>
+
+            <!-- 统计卡片 -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>{{totalFoodItems}}</h3>
+                        <p>总食材数量</p>
+                    </div>
+                </div>
+                <div class="stat-card warning">
+                    <div class="stat-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>{{expiringFoodItems}}</h3>
+                        <p>即将过期</p>
+                    </div>
+                </div>
+                <div class="stat-card danger">
+                    <div class="stat-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>{{expiredFoodItems}}</h3>
+                        <p>已过期</p>
+                    </div>
+                </div>
+                <div class="stat-card success">
+                    <div class="stat-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>{{totalRecipes}}</h3>
+                        <p>菜谱数量</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主要内容区域 -->
+            <div class="content-grid">
+                <!-- 提醒列表 -->
+                <div class="content-card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-bell"></i> 今日提醒</h2>
+                        <a href="/foods" class="btn btn-primary">查看全部</a>
+                    </div>
+                    <div class="card-content">
+                        {{#if reminders.length}}
+                            <div class="reminder-list">
+                                {{#each reminders}}
+                                    <div class="reminder-item {{#if isExpired}}expired{{else if isExpiring}}expiring{{/if}}">
+                                        <div class="reminder-icon">
+                                            {{#if isExpired}}
+                                                <i class="fas fa-times-circle"></i>
+                                            {{else if isExpiring}}
+                                                <i class="fas fa-exclamation-triangle"></i>
+                                            {{else}}
+                                                <i class="fas fa-info-circle"></i>
+                                            {{/if}}
+                                        </div>
+                                        <div class="reminder-content">
+                                            <h4>{{name}}</h4>
+                                            <p>{{quantity}} {{unit}}</p>
+                                            <span class="reminder-date">{{expiryDate}}</span>
+                                        </div>
+                                        <div class="reminder-actions">
+                                            <button class="btn btn-sm btn-outline" onclick="editFoodItem('{{id}}')">
+                                                <i class="fas fa-edit"></i>
+                                            </button>
+                                            <button class="btn btn-sm btn-danger" onclick="deleteFoodItem('{{id}}')">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{else}}
+                            <div class="empty-state">
+                                <i class="fas fa-check-circle"></i>
+                                <p>没有需要提醒的食材</p>
+                            </div>
+                        {{/if}}
+                    </div>
+                </div>
+
+                <!-- 推荐菜谱 -->
+                <div class="content-card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-star"></i> 推荐菜谱</h2>
+                        <a href="/recipes" class="btn btn-primary">查看全部</a>
+                    </div>
+                    <div class="card-content">
+                        {{#if recommendedRecipes.length}}
+                            <div class="recipe-grid">
+                                {{#each recommendedRecipes}}
+                                    <div class="recipe-card">
+                                        <div class="recipe-image">
+                                            <img src="{{imageUrl}}" alt="{{name}}" onerror="this.src='/images/default-recipe.jpg'">
+                                        </div>
+                                        <div class="recipe-content">
+                                            <h4>{{name}}</h4>
+                                            <p class="recipe-description">{{description}}</p>
+                                            <div class="recipe-meta">
+                                                <span class="cooking-time">
+                                                    <i class="fas fa-clock"></i> {{cookingTime}}分钟
+                                                </span>
+                                                <span class="difficulty">
+                                                    <i class="fas fa-signal"></i> {{difficulty}}
+                                                </span>
+                                            </div>
+                                            <div class="recipe-actions">
+                                                <button class="btn btn-primary" onclick="viewRecipe('{{id}}')">
+                                                    查看详情
+                                                </button>
+                                                <button class="btn btn-outline" onclick="addToFavorites('{{id}}')">
+                                                    <i class="fas fa-heart"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{else}}
+                            <div class="empty-state">
+                                <i class="fas fa-utensils"></i>
+                                <p>暂无推荐菜谱</p>
+                                <a href="/recipes/create" class="btn btn-primary">创建第一个菜谱</a>
+                            </div>
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+
+            <!-- 快速操作 -->
+            <div class="quick-actions">
+                <h3>快速操作</h3>
+                <div class="action-buttons">
+                    <a href="/foods/create" class="action-btn">
+                        <i class="fas fa-plus"></i>
+                        <span>添加食材</span>
+                    </a>
+                    <a href="/recipes/create" class="action-btn">
+                        <i class="fas fa-utensils"></i>
+                        <span>新建菜谱</span>
+                    </a>
+                    <a href="/foods" class="action-btn">
+                        <i class="fas fa-list"></i>
+                        <span>食材列表</span>
+                    </a>
+                    <a href="/recipes" class="action-btn">
+                        <i class="fas fa-book-open"></i>
+                        <span>菜谱列表</span>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/home.js"></script>
+</body>
+</html> 
