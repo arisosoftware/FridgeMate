@@ -1,0 +1,2485 @@
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:wpsCustomData="http://www.wps.cn/officeDocument/2013/wpsCustomData" mc:Ignorable="w14 w15 wp14">
+<w:body>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="2"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="0" w:afterAutospacing="0" w:line="22" w:lineRule="atLeast"/>
+<w:ind w:left="0" w:right="0" w:firstLine="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="35"/>
+<w:szCs w:val="35"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="35"/>
+<w:szCs w:val="35"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>About the job</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:left="0" w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Job Requisition ID #</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>24WD83815</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Job Title: {{Job.Title}}</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>French job description to follow!/La description de poste en français se trouve plus bas!</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="7"/>
+<w:tblW w:w="8522" w:type="dxa"/>
+<w:tblInd w:w="0" w:type="dxa"/>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="108" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="2840"/>
+<w:gridCol w:w="5682"/>
+</w:tblGrid>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="108" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="8522" w:type="dxa"/>
+<w:gridSpan w:val="2"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>This is a hybrid role. Relocation is an option.</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="8522" w:type="dxa"/>
+<w:gridSpan w:val="2"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Position Overview</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="108" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2840" w:type="dxa"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5682" w:type="dxa"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t xml:space="preserve"> {{Company.Name}} is looking for a </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>{{Job.Title}}</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t xml:space="preserve">to join the </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Autodesk</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>{{Job.Department}}</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:left="0" w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="7"/>
+<w:tblW w:w="8522" w:type="dxa"/>
+<w:tblInd w:w="0" w:type="dxa"/>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="2840"/>
+<w:gridCol w:w="5682"/>
+</w:tblGrid>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="8522" w:type="dxa"/>
+<w:gridSpan w:val="2"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Responsibilities</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2840" w:type="dxa"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5682" w:type="dxa"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t> {{Job.Summary}} </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:left="0" w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:left="0" w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="7"/>
+<w:tblW w:w="8522" w:type="dxa"/>
+<w:tblInd w:w="0" w:type="dxa"/>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="2840"/>
+<w:gridCol w:w="5682"/>
+</w:tblGrid>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="8522" w:type="dxa"/>
+<w:gridSpan w:val="2"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Position Overview</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2840" w:type="dxa"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5682" w:type="dxa"/>
+</w:tcPr>
+
+{{#each Job.Responsibilities}}
+- {{this}}
+{{/each}}
+
+ 
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t></w:t>
+</w:r>
+</w:p>
+
+
+
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Lead one or more critical business goals</w:t>
+</w:r>
+</w:p>
+
+
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Have an understanding of how the team work connects to the business goals</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Demonstrate impact and influence across teams outside of the direct organisation</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Exhibit steadfast leadership and make substantial contributions to large-scale, intricate projects that frequently entail collaboration among multiple engineers and cross-functional teams</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Excel at offering guidance and removing obstacles for both your team and broader colleagues</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Leading projects with unclear milestones by clarifying requirements, carefully planning and executing the scope, closely monitoring quality and team performance to ensure milestones are successfully met on time</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Confidently lead or actively participate in transformative initiatives within Autodesk Platform Services</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Exhibit ownership of platform capabilities managed by the team, encompassing end-to-end responsibilities from Engineering Practices, Solutions, Quality, and Deployment to Support</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Act as a driving force for enhancing Engineering Practices and Quality while simultaneously functioning as an influential multiplier for the team, offering valuable guidance and unwavering support</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Lead technical discussions across the organisation driving the results and business outcomes</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Demonstrate strong leadership in incident calls driving the investigation, timely resolution, and improvements required for each incident. Drive actions for improvements within and outside the team</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Capable of acting as Product owner for the team, balancing the requirements from different sources like architectural roadmaps or product management, as well as improving services.</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b w:val="0"/>
+<w:bCs w:val="0"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Mentor and lead other members of the team, and create opportunities to share knowledge</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:left="0" w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+<w:bookmarkEnd w:id="0"/>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="7"/>
+<w:tblW w:w="8522" w:type="dxa"/>
+<w:tblInd w:w="0" w:type="dxa"/>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="1061"/>
+<w:gridCol w:w="7461"/>
+</w:tblGrid>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="8522" w:type="dxa"/>
+<w:gridSpan w:val="2"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:after="249" w:afterAutospacing="0"/>
+<w:ind w:left="0" w:right="0" w:firstLine="0"/>
+<w:jc w:val="left"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:kern w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:highlight w:val="yellow"/>
+<w:vertAlign w:val="baseline"/>
+<w:lang w:val="en-US" w:eastAsia="zh-CN" w:bidi="ar"/>
+</w:rPr>
+<w:t>Minimum Qualifications</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:tblPrEx>
+<w:tblBorders>
+<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:left w:w="108" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+<w:right w:w="108" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1061" w:type="dxa"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="7461" w:type="dxa"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Graduate or Postgraduate in Computer Science Engineering or related technical fields</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>8+ years of software design, development, and/or consulting experience in cloud systems or web services, with at least 3 years in a leadership role</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Lead position on a successful delivery of a commercial cloud product</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Proven capability to lead incident response, drive root cause analysis, and implement preventive measures</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Excellent verbal and written communication skills, with the ability to lead technical discussions and present complex ideas to diverse audiences</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Good understanding of business drivers and ability to articulate them clearly.</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Proven ability to mentor and develop technical talent within the organization.</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Excellent hands-on Java programming skills and exposure to Spring Boot</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Experience with software development lifecycle (SDLC) processes, tools, and Agile methodologies</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Hands-on Experience with AWS or other cloud providers</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>API development experience (REST, GraphQL, gRPC)</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Additional programming skills like Go or TypeScript</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>High expertise in object-oriented design patterns</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Experience with CI/CD concepts and working with a deployment pipeline such as Jenkins</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Experience with Databases and database design principles at cloud scale</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:spacing w:before="0" w:beforeAutospacing="1" w:after="0" w:afterAutospacing="0"/>
+<w:ind w:left="720" w:right="0" w:hanging="360"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:t>Experience with building scalable systems and services in the cloud</w:t>
+</w:r>
+</w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rStyle w:val="5"/>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:b/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+<w:lang w:val="en"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="3"/>
+<w:keepNext w:val="0"/>
+<w:keepLines w:val="0"/>
+<w:widowControl/>
+<w:suppressLineNumbers w:val="0"/>
+<w:pBdr>
+<w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+</w:pBdr>
+<w:bidi w:val="0"/>
+<w:spacing w:before="0" w:beforeAutospacing="0" w:after="249" w:afterAutospacing="0" w:line="27" w:lineRule="atLeast"/>
+<w:ind w:left="0" w:right="0"/>
+<w:textAlignment w:val="baseline"/>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="default" w:ascii="Ubuntu" w:hAnsi="Ubuntu" w:eastAsia="Ubuntu" w:cs="Ubuntu"/>
+<w:i w:val="0"/>
+<w:caps w:val="0"/>
+<w:spacing w:val="0"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:vertAlign w:val="baseline"/>
+</w:rPr>
+<w:br w:type="textWrapping"/>
+</w:r>
+</w:p>
+<w:p/>
+<w:sectPr>
+<w:pgSz w:w="11906" w:h="16838"/>
+<w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="720" w:footer="720" w:gutter="0"/>
+<w:cols w:space="720" w:num="1"/>
+<w:docGrid w:linePitch="360" w:charSpace="0"/>
+</w:sectPr>
+</w:body>
+</w:document>
